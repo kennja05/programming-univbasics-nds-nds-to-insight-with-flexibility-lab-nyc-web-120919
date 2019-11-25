@@ -104,14 +104,6 @@ def movies_with_directors_set(source)
 director_index = 0
 final_array = []
 while director_index < source.length
-  movie_index = 0 
-  array_of_movies = []
-   while movie_index < source[director_index][:movies].length
-     if !array_of_movies.include?(source[director_index][:movies][movie_index])
-     array_of_movies.push(source[director_index][:movies][movie_index])
-     end 
-     movie_index += 1 
-   end 
   final_array << [{:director_name => source[director_index][:name], :movies => source[director_index][:movies]}]
   #binding.pry
   director_index += 1 
