@@ -58,6 +58,7 @@ while i < movies_collection.count do
   i += 1 
 end
 updated_movie_collection
+binding.pry
 end
 
 def gross_per_studio(collection)
