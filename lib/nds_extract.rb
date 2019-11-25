@@ -109,7 +109,7 @@ while director_index < source.length
   director_index += 1 
   #binding.pry
  end
-final_array
+pp final_array
 #binding.pry
 end
 
