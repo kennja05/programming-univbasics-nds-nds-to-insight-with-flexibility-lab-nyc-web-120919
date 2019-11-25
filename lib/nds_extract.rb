@@ -112,7 +112,7 @@ while director_index < source.length
      end 
      movie_index += 1 
    end 
-  final_array << [{:director_name => source[director_index][:name], :movies => source}]
+  final_array << [{:director_name => source[director_index][:name], :movies => source[director_index][:movies]}]
   #binding.pry
   director_index += 1 
   #binding.pry
